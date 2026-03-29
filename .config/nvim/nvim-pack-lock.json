@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "blink.cmp": {
+      "rev": "cb8840b3a669e2af24e922ea58b44ccc0b8916ea",
+      "src": "https://github.com/saghen/blink.cmp.git"
+    },
+    "lualine.nvim": {
+      "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
+      "src": "https://github.com/nvim-lualine/lualine.nvim.git"
+    },
+    "mason.nvim": {
+      "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
+      "src": "https://github.com/mason-org/mason.nvim.git"
+    },
+    "nvim-lspconfig": {
+      "rev": "883c6495b53fccbd35d0938aac8bdf72f6d499c0",
+      "src": "https://github.com/neovim/nvim-lspconfig.git"
+    },
+    "vim-moonfly-colors": {
+      "rev": "d11b3d04cc1cb71a778d67a4df73283a5a6d66f4",
+      "src": "https://github.com/bluz71/vim-moonfly-colors.git"
+    }
+  }
+}
