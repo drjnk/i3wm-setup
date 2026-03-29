@@ -1,0 +1,73 @@
+1774283351312	Sync.LogManager	DEBUG	Flushing file log
+1774283351319	Sync.LogManager	DEBUG	Log cleanup threshold time: 1773419351319
+1774283351329	Sync.LogManager	DEBUG	Done deleting files.
+1774283409138	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283409200	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283409263	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774283409268	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774283410159	Sync.RemoteTabs	INFO	Generating tab list with filter
+1774283410322	Sync.RemoteTabs	INFO	Generating tab list with filter
+1774283410463	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1774283410464	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1774283411440	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283411727	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283414133	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283414156	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283415656	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283419048	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283419377	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283419483	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283420668	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283490444	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283490454	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283495445	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283628595	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283633656	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283671333	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283671375	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283671439	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1774283671439	FirefoxAccounts	DEBUG	getOAuthToken enter
+1774283671439	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1774283671439	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1774283671441	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1774283671907	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1774283676366	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283677384	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283677578	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283678928	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283682447	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283690942	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283690953	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283695943	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283712175	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283712194	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283712428	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283712552	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283717252	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283925095	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774283925107	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774283930182	Sync.Engine.Tabs	INFO	Can't do a quick sync before the first full sync
+1774283951516	Sync.Service	DEBUG	User-Agent: Firefox/140.8.0 (Linux x86_64) FxSync/1.142.0.20260217105505.desktop
+1774283951517	FirefoxAccounts	INFO	Polling device commands.
+1774283951517	Sync.Service	INFO	Starting sync at 2026-03-23 19:39:11 in browser session 31q1bPOWBcrM
+1774283951517	Sync.Service	DEBUG	In sync: should login.
+1774283951518	Sync.Service	INFO	User logged in successfully - verifying login.
+1774283951521	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1774283951521	FirefoxAccounts	DEBUG	getOAuthToken enter
+1774283951521	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1774283951521	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1774283951521	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1774283951522	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1774283951523	Sync.Status	DEBUG	Status.login: success.login => success.status_ok
+1774283951523	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1774283951523	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1774283951531	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/device/commands?index=0
+1774283951647	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1774283951647	Sync.Service	DEBUG	verifyLogin failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1774283951647	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1774283951647	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1774283951647	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1774283951648	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774283951650	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1774283951652	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.sys.mjs:1051:15) JS Stack trace: onNotify@service.sys.mjs:1051:15
+1774283951653	Sync.Service	DEBUG	Not syncing: login returned false.

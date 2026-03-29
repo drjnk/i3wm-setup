@@ -1,0 +1,102 @@
+1774283951655	Sync.LogManager	DEBUG	Flushing file log
+1774283951661	Sync.LogManager	DEBUG	Log cleanup threshold time: 1773419951661
+1774283951664	Sync.LogManager	DEBUG	Done deleting files.
+1774283951822	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1774283952075	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/device/commands?index=0 200
+1774283952075	Hawk	DEBUG	(Response) /account/device/commands?index=0: code: 200 - Status text: 
+1774283952076	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -1076
+1774284016060	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284021115	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284037657	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284042674	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284072432	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284077636	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284321421	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284326455	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284373850	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284375544	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284375580	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284375646	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1774284375646	FirefoxAccounts	DEBUG	getOAuthToken enter
+1774284375647	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1774284375647	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1774284375648	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1774284376130	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1774284377919	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284378646	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284378858	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284384526	FirefoxAccounts	TRACE	observed topic=push-subscription-change, data=https://web.telegram.org/k/, subject=[xpconnect wrapped nsIPrincipal]
+1774284391567	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284391617	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284396616	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284403409	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284408413	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284437059	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284442103	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284443186	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284448191	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284448695	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284453318	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284453773	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284518911	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284521506	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284523993	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284530633	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284534123	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1774284535720	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284540520	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1774284545523	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1774284551707	Sync.Service	DEBUG	User-Agent: Firefox/140.8.0 (Linux x86_64) FxSync/1.142.0.20260217105505.desktop
+1774284551710	Sync.Service	INFO	Starting sync at 2026-03-23 19:49:11 in browser session 31q1bPOWBcrM
+1774284551710	Sync.Service	DEBUG	In sync: should login.
+1774284551711	Sync.Service	INFO	User logged in successfully - verifying login.
+1774284551713	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1774284551713	FirefoxAccounts	DEBUG	getOAuthToken enter
+1774284551714	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1774284551714	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1774284551716	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1774284551717	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1774284551718	Sync.Status	DEBUG	Status.login: error.login.reason.network => success.status_ok
+1774284551719	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1774284551719	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1774284552062	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/collections
+1774284552063	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/configuration
+1774284552090	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1774284552306	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/configuration
+1774284552306	Sync.Service	DEBUG	Fetching global metadata record
+1774284552308	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774284552588	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/storage/meta/global
+1774284552589	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1774100786.39
+1774284552590	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774284552862	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/storage/meta/global
+1774284552863	Sync.Service	DEBUG	Weave Version: 1.142.0 Local Storage: 5 Remote Storage: 5
+1774284552863	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1774284552864	Sync.Service	INFO	Testing info/collections: {"bookmarks":1774106596.03,"history":1774221000.64,"meta":1774100786.39,"extension-storage":1774020465.27,"clients":1774211748.19,"addons":1774101939.12,"prefs":1774101937.8,"crypto":1773508832.36,"passwords":1774101914.59,"tabs":1774221554.26,"forms":1774220397.88}
+1774284552866	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1774284552866	Sync.Service	INFO	collection keys reports that a key update is needed.
+1774284552868	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774284553182	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/storage/crypto/keys
+1774284553183	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1774284553186	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1773508832.36.
+1774284553186	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1774284553186	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1774284553186	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1774284553186	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1774284553186	Sync.CollectionKeyManager	INFO	Bumping last modified to 1773508832.36
+1774284553186	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1774284553186	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1774284553186	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1774284553186	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/
+1774284553187	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774284553192	Sync.Status	INFO	Resetting Status.
+1774284553192	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1774284553196	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774284553503	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/collections?v=1.142.0
+1774284553504	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/configuration
+1774284553505	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1774284553520	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/configuration failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1774284553521	Sync.Service	WARN	Failed to fetch info/configuration: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1774284553521	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13
+1774284553523	Sync.SyncScheduler	DEBUG	Client count: 0 -> 3
+1774284553523	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1774284553533	Sync.Service	DEBUG	Exception calling anonymous function: Error: Aborting sync, remote setup failed(resource://services-sync/stages/enginesync.sys.mjs:96:13) JS Stack trace: sync@enginesync.sys.mjs:96:13

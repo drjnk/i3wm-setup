@@ -1,0 +1,35 @@
+1774784532768	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1774784669526	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1774784669563	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774784669981	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1774784670467	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1774784670472	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774784670482	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1774784670482	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1774784670485	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1774784671256	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1774784671257	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1774784672696	Sync.Service	DEBUG	User-Agent: Firefox/140.8.0 (Linux x86_64) FxSync/1.142.0.20260217105505.desktop
+1774784672697	Sync.Service	INFO	Starting sync at 2026-03-29 14:44:32 in browser session nrFTln7w2MXi
+1774784672698	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1774784672897	Sync.Status	INFO	Resetting Status.
+1774784672897	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1774784672901	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1774784672901	FirefoxAccounts	DEBUG	getOAuthToken enter
+1774784672902	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1774784672903	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1774784672904	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1774784672913	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1774784672925	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1774784672926	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1774784672926	Sync.Engine.Tabs	INFO	Posting 1 records of 939 bytes with batch=true
+1774784672930	Sync.Collection	DEBUG	POST Length: 939
+1774784672938	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, 4
+1774784672938	Services.Common.RESTRequest	DEBUG	Channel redirect: https://profile.accounts.firefox.com/v1/profile, https://profile.accounts.firefox.com/v1/profile, internal = true
+1774784672945	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398890 - NS_ERROR_UNKNOWN_PROXY_HOST
+1774784672945	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1774784672946	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_PROXY_HOST\"  nsresult: \"0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1774784672948	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/282290223/info/collections failed: [Exception... "The lookup of the proxy hostname failed"  nsresult: "0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)"  location: "<unknown>"  data: no] No traceback available
+1774784672949	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the proxy hostname failed"  nsresult: "0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)"  location: "<unknown>"  data: no] No traceback available
+1774784672950	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1774784673147	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the proxy hostname failed"  nsresult: "0x804b002a (NS_ERROR_UNKNOWN_PROXY_HOST)"  location: "<unknown>"  data: no] No traceback available
