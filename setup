@@ -1,5 +1,8 @@
 sudo xbps-install -Syu
-sudo xbps-install i3 lightdm i3status dmenu nitrogen lxappearance udiskie gvfs xbacklight ristretto picom xfce4-terminal polybar rofi numlockx alsa-utils zsh curl nodejs tree-sitter network-manager bat pcmanfm i3lock engrampa
+sudo xbps-install i3 lightdm i3status dmenu nitrogen lxappearance udiskie gvfs xbacklight ristretto picom xfce4-terminal polybar rofi numlockx alsa-utils zsh curl nodejs tree-sitter bat pcmanfm i3lock engrampa firefox-esr python3-pip networkmanager tmux xorg tree
+git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+chmod +x polybar-themes/setup.sh
+polybar-themes/setup.sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 sudo chsh -s $(which zsh)
@@ -8,3 +11,7 @@ sudo mv fonts/* /usr/share/fonts/truetype/
 fc-cache -f -v
 python3 -m pip config set global.break-system-packages true
 cp .config/* ~/.config/ -r
+cp .local/* ~/.local/ -r
+sudo ln -s /etc/sv/dbus /var/service
+sudo ln -s /etc/sv/lightdm /var/service
+sudo cp xinitrc /etc/X11/xinit/ -r
