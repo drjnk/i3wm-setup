@@ -7,4 +7,4 @@ sudo mv icons/* /usr/share/icons/
 sudo mv fonts/* /usr/share/fonts/truetype/
 fc-cache -f -v
 python3 -m pip config set global.break-system-packages true
-
+cp .config/* ~/.config/ -r
