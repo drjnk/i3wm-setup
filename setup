@@ -2,7 +2,9 @@ sudo xbps-install -Syu
 sudo xbps-install i3 lightdm i3status dmenu nitrogen lxappearance udiskie gvfs xbacklight ristretto picom xfce4-terminal polybar rofi numlockx alsa-utils zsh curl nodejs tree-sitter bat pcmanfm i3lock engrampa firefox-esr python3-pip networkmanager tmux xorg tree
 git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
 chmod +x polybar-themes/setup.sh
-polybar-themes/setup.sh
+cd polybar-themes
+setup.sh
+cd ..
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 sudo chsh -s $(which zsh)
