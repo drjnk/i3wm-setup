@@ -1,5 +1,5 @@
 sudo xbps-install -Syu
-sudo xbps-install i3 lightdm light-locker i3status dmenu nitrogen lxappearance udiskie gvfs xbacklight ristretto picom xfce4-terminal polybar rofi numlockx alsa-utils zsh curl nodejs npm tree-sitter network-manager bat
+sudo xbps-install i3 lightdm light-locker i3status dmenu nitrogen lxappearance udiskie gvfs xbacklight ristretto picom xfce4-terminal polybar rofi numlockx alsa-utils zsh curl nodejs npm tree-sitter network-manager bat pcmanfm
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
 sudo chsh -s $(which zsh)
